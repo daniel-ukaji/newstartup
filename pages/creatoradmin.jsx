@@ -39,7 +39,7 @@ import { updateDescription } from '@/services/auth';
 import { getUserProfile } from '@/services/auth';
 import { useToast } from "@/components/ui/use-toast"
 
-function creatoradmin() {
+function CreatorAdmin() {
     const { toast } = useToast()
     const [activeTab, setActiveTab] = useState('home');
     const [description, setDescription] = useState('');
@@ -432,4 +432,4 @@ function creatoradmin() {
   )
 }
 
-export default creatoradmin
+export default CreatorAdmin

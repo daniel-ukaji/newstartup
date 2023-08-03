@@ -18,10 +18,9 @@ function TextPage() {
         id: "your-id-here",
         title: title,
         description: creationReason, // Get the plain text from the EditorState
-        creator: "your-creator-id",
         type: "your-post-type",
         link: "your-post-link",
-        viewers: "your-viewers",
+        viewers: "public",
         tier: "your-tier",
         earlyAccess: true,
         textPreview: "your-text-preview",

@@ -141,6 +141,8 @@ export const createPost = async (post) => {
     const data = await response.json();
     return data;
   } else {
-    throw new Error('Failed to create post');
+    const errorMessage = await response.text();
+    console.error(` ${response.status} ${errorMessage}`);
+    throw new Error(errorMessage);
   }
 };
