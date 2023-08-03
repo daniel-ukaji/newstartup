@@ -139,12 +139,12 @@ function CreatorPage() {
           <div className="flex justify-center mt-10 mb-10 space-x-10">
             <Card className="w-2/5 flex flex-col justify-center items-center">
                 <div className=''>
-                    <Image src={Banna} className='h-[300px] object-cover' />
+                    <Image alt="" src={Banna} className='h-[300px] object-cover' />
                 </div>
                 <div className='flex flex-col justify-center items-center'>
                     <p className='mt-5 mb-6 text-gray-600 font-semibold'>Getting Started</p>
                     <h1 className='font-semibold text-xl'>Your launch checklist</h1>
-                    <p className='mb-10 text-gray-700 text-sm mt-2'>6 simple steps to make sure you're ready to start your Patreon journey.</p>
+                    <p className='mb-10 text-gray-700 text-sm mt-2'>6 simple steps to make sure you are ready to start your Patreon journey.</p>
                 </div>
             </Card>
 

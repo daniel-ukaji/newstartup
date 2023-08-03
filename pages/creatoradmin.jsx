@@ -140,7 +140,7 @@ function CreatorAdmin() {
                 <div className='flex flex-col justify-center items-center'>
                     <p className='mt-5 mb-6 text-gray-600 font-semibold'>Getting Started</p>
                     <h1 className='font-semibold text-xl'>Your launch checklist</h1>
-                    <p className='mb-10 text-gray-700 text-sm mt-2'>6 simple steps to make sure you're ready to start your Patreon journey.</p>
+                    <p className='mb-10 text-gray-700 text-sm mt-2'>6 simple steps to make sure you are ready to start your Patreon journey.</p>
                 </div>
             </Card>
 
@@ -157,7 +157,7 @@ function CreatorAdmin() {
             <Card className="w-2/5 flex flex-col justify-center items-center">
                 <div className='flex flex-col justify-center items-center'>
                     <h1 className='mt-5 mb-6 font-semibold text-xl'>Describe your page</h1>
-                    <p className='mb-3 text-gray-700 text-sm mt-2'>Let people know who you are and what you'll be using Patreon for.</p>
+                    <p className='mb-3 text-gray-700 text-sm mt-2'>Let people know who you are and what you willl be using Patreon for.</p>
                     <Dialog>
                         <DialogTrigger className='border px-4 py-2 mb-4 bg-[#0F172A] rounded-md text-white'>Add info</DialogTrigger>
                         <DialogContent className="overflow-y-auto max-h-full">
@@ -175,7 +175,7 @@ function CreatorAdmin() {
 
                             <div className="grid w-full gap-1.5">
                             <Label className="mb-2 mt-5">Social</Label>
-                            <p className='text-sm text-gray-500'>Help people find you wherever you are. Connect your other accounts to show them on your page. We'll never post on your behalf.</p>
+                            <p className='text-sm text-gray-500'>Help people find you wherever you are. Connect your other accounts to show them on your page. We will never post on your behalf.</p>
                             </div>
 
                             <div className="grid w-full gap-1">
@@ -269,7 +269,7 @@ function CreatorAdmin() {
             <Card className="w-2/5 flex flex-col justify-center items-center">
                 <div className='flex flex-col justify-center items-center'>
                     <h1 className='mt-5 mb-6 font-semibold text-xl'>Publish your page</h1>
-                    <p className='mb-3 text-gray-700 text-sm mt-2 text-center w-3/4'>This is it! It's time to go live with your page.</p>
+                    <p className='mb-3 text-gray-700 text-sm mt-2 text-center w-3/4'>This is it! It is time to go live with your page.</p>
                     <Button className="mb-5">Publish page</Button>
                 </div>
             </Card>
@@ -369,7 +369,7 @@ function CreatorAdmin() {
                 <SheetHeader>
                   <SheetTitle>Edit profile</SheetTitle>
                   <SheetDescription>
-                    Make changes to your profile here. Click save when you're done.
+                    Make changes to your profile here. Click save when you are done.
                   </SheetDescription>
                 </SheetHeader>
                 <div className="grid gap-4 py-4">
