@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your CSS file or as inline styles */
+.tab-button.active-tab::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #183FA5; /* Adjust the color as per your design */
+    margin-top: 5px;
+  }
+  
