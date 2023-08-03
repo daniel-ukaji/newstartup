@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import CreatorHeader from '@/components/CreatorHeader'
 import Banner from '@/public/Banner.jpg'
-import Hero from '@/public/Hero.jpg'
-import Banna from '@/public/Banna.jpg'
+import Hero from '@/public/hero.jpg'
+import Banna from '@/public/banna.jpg'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import {

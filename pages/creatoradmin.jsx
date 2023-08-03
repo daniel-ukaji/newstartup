@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import CreatorHeader from '@/components/CreatorHeader'
 import Banner from '@/public/Banner.jpg'
-import Hero from '@/public/Hero.jpg'
+import Hero from '@/public/hero.jpg'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import {
