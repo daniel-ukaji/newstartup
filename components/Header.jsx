@@ -39,6 +39,52 @@ import {
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import localFont from 'next/font/local';
+
+
+const craftworkSemiBold = localFont({
+  src: [
+    
+    {
+      path: '../public/fonts/CraftworkGrotesk-SemiBold.ttf',
+      variable: '--font-craftwork-bold'
+    },
+    
+  ],
+})
+
+const craftworkRegular = localFont({
+  src: [
+    
+    {
+      path: '../public/fonts/CraftworkGrotesk-Regular.ttf',
+      variable: '--font-craftwork-regular'
+    },
+    
+  ],
+})
+
+const craftworkBold = localFont({
+  src: [
+    
+    {
+      path: '../public/fonts/CraftworkGrotesk-Bold.ttf',
+      variable: '--font-craftwork-bold'
+    },
+    
+  ],
+})
+
+const craftworkMedium = localFont({
+  src: [
+    
+    {
+      path: '../public/fonts/CraftworkGrotesk-Medium.ttf',
+      variable: '--font-craftwork-medium'
+    },
+    
+  ],
+})
 
 function Header() {
   const router = useRouter();
@@ -55,15 +101,15 @@ function Header() {
   };
 
   return (
-    <div className='pt-3 pb-3 border-b'>
-      <div className='max-w-5xl mx-auto flex justify-between items-center'>
+    <div className={` ${craftworkBold.className} pt-3 pb-3`}>
+      <div className='max-w-6xl mx-auto flex justify-between items-center'>
         <Link href="/">
           <h1 className='font-bold text-2xl'>FindMeSomething</h1>
         </Link>
         {!token ? (
           <div className='flex space-x-3'>
             <Link href='/login'>
-              <button className='py-2 px-5 border rounded-md bg-[#121215] text-white font-semibold'>
+              <button className='py-2 px-5 border rounded-md bg-[#212121] text-white font-semibold'>
                 Sign in
               </button>
             </Link>

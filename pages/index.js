@@ -5,6 +5,11 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import { useEffect } from 'react'
 import { getUserToken, logout } from '@/services/auth'
+import Banner from '@/components/Banner'
+import FirstSection from '@/components/FirstSection'
+import SecondSection from '@/components/SecondSection'
+import ThirdSection from '@/components/ThirdSection'
+import FourthSection from '@/components/FourthSection'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,9 +22,14 @@ export default function Home() {
   
 
   return (
-    <div className=''>
+    <div className='bg-[#FCF9F1]'>
       <Header />
       <Hero />
+      <Banner />
+      <FirstSection />
+      <SecondSection />
+      <ThirdSection />
+      <FourthSection />
     </div>
   )
 }
